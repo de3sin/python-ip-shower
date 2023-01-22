@@ -1,9 +1,9 @@
-# This is our libraries
+# These are our libraries
 import requests
 import subprocess
 import socket
 
-# This is variables 
+# These are variables 
 http = requests.get("https://api.ipify.org").text
 host = socket.gethostname()
 ipaddr = socket.gethostbyname(host)
